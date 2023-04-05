@@ -1,2 +1,2 @@
-# ootpiisp_lab
+# ootpisp_lab
 Лабораторные работы по ООТПиСП
