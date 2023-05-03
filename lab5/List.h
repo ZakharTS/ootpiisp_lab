@@ -18,6 +18,7 @@ public:
     List& operator+=(char);
     List& operator--();
     bool operator==(const List &second);
+    void input(std::string);
     void print();
 };
 

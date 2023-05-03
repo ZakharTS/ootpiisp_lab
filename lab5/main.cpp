@@ -2,9 +2,8 @@
 #include "List.h"
 
 int main() {
-    List list('a');
-    list += 'B';
-    list += 'C';
+    List list;
+    list.input("aBC");
     list.print();
     --list;
     list.print();

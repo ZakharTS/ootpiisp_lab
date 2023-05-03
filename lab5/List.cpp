@@ -2,7 +2,7 @@
 // Дополнительно перегрузить следующие операции:
 //+= – добавить элемент в начало(char+list);
 //-- – удалить элемент из начала(типа –list);
-//= = – проверка на равенство.
+//== – проверка на равенство.
 
 #include "List.h"
 
@@ -61,6 +61,12 @@ bool List::operator==(const List &second) {
         }
     }
     return true;
+}
+
+void List::input(std::string inputStr) {
+    for (auto i : inputStr) {
+        (*this) += i;
+    }
 }
 
 void List::print() {
