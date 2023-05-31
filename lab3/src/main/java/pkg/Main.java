@@ -31,7 +31,7 @@ public class Main {
     public static void main(String[] args) {
         // 1
         try {
-            double db = stringToDouble("-10");
+            double db = stringToDouble("hello");
             System.out.println(db);
         } catch (Exception e) {
             e.printStackTrace();
@@ -45,7 +45,8 @@ public class Main {
             getType(b);
         } catch (DoubleException e) {
             e.printStackTrace();
-        } catch (IntegerException e) {
+        }
+        catch (IntegerException e) {
             e.printStackTrace();
         }
     }
